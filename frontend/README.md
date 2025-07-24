@@ -42,23 +42,27 @@ A modern, responsive portfolio website built with React and Tailwind CSS, showca
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/susara-perera/portfolio.git
    cd portfolio/frontend
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Start the development server**
+
    ```bash
    npm start
    ```
 
 4. **Open your browser**
-   ```
+
+   ```text
    http://localhost:3000
    ```
 
@@ -72,7 +76,7 @@ This creates a `build` folder with optimized production files.
 
 ## 📁 Project Structure
 
-```
+```text
 frontend/
 ├── public/
 │   ├── index.html
@@ -128,12 +132,14 @@ Update the personal information in each component:
 ### Images
 
 Replace placeholder images with your actual photos:
+
 - Profile photos in Hero and About sections
 - Project screenshots in Projects section
 
 ## 📱 Responsive Design
 
 The portfolio is fully responsive with breakpoints:
+
 - Mobile: < 768px
 - Tablet: 768px - 1024px
 - Desktop: > 1024px
@@ -172,12 +178,14 @@ The contact form is currently set up with a demo submission. To make it function
 1. Install gh-pages: `npm install --save-dev gh-pages`
 2. Add homepage to package.json: `"homepage": "https://yourusername.github.io/portfolio"`
 3. Add deploy scripts:
+
    ```json
    "scripts": {
      "predeploy": "npm run build",
      "deploy": "gh-pages -d build"
    }
    ```
+
 4. Run: `npm run deploy`
 
 ## 📄 License
@@ -190,8 +198,9 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 ## 👤 Author
 
-**Susara Perera**
-- Email: susara.perera@outlook.com
+### Susara Perera
+
+- Email: [susara.perera@outlook.com](mailto:susara.perera@outlook.com)
 - LinkedIn: [linkedin.com/in/susara-perera](https://linkedin.com/in/susara-perera)
 - GitHub: [github.com/susara-perera](https://github.com/susara-perera)
 
