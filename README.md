@@ -24,9 +24,11 @@ A modern, responsive portfolio website showcasing the work and skills of Susara 
 ## 📱 Screenshots
 
 ### Desktop View
+
 ![Desktop Screenshot](./screenshots/desktop-hero.png)
 
 ### Mobile View
+
 ![Mobile Screenshot](./screenshots/mobile-view.png)
 
 ## 🛠️ Tech Stack
@@ -40,7 +42,7 @@ A modern, responsive portfolio website showcasing the work and skills of Susara 
 
 ## 🏗️ Project Structure
 
-```
+```text
 Portfolio_Susara/
 ├── frontend/
 │   ├── public/
@@ -79,22 +81,26 @@ Portfolio_Susara/
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/susara-perera/Portfolio_Susara.git
    cd Portfolio_Susara
    ```
 
 2. **Navigate to frontend directory**
+
    ```bash
    cd frontend
    ```
 
 3. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 4. **Start the development server**
+
    ```bash
    npm start
    ```
@@ -125,6 +131,7 @@ Portfolio_Susara/
 ### Color Scheme
 
 The website uses a modern gradient color scheme defined in `tailwind.config.js`:
+
 - Primary: Cyan to Blue gradient
 - Secondary: Indigo to Purple gradient
 - Accent: Pink and yellow highlights
@@ -140,6 +147,7 @@ The website uses a modern gradient color scheme defined in `tailwind.config.js`:
 ### Netlify (Recommended)
 
 1. Build the project:
+
    ```bash
    cd frontend && npm run build
    ```
@@ -155,11 +163,13 @@ The website uses a modern gradient color scheme defined in `tailwind.config.js`:
 ### GitHub Pages
 
 1. Install gh-pages:
+
    ```bash
    npm install --save-dev gh-pages
    ```
 
 2. Add to package.json:
+
    ```json
    "homepage": "https://susara-perera.github.io/Portfolio_Susara",
    "scripts": {
@@ -169,6 +179,7 @@ The website uses a modern gradient color scheme defined in `tailwind.config.js`:
    ```
 
 3. Deploy:
+
    ```bash
    npm run deploy
    ```
@@ -188,16 +199,17 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 👨‍💻 About the Developer
 
 **Susara Perera** - Full Stack Developer & Software Engineering Student
+
 - 🎓 Second-year Software Engineering student at SLIIT
 - 💼 Specialized in React, Node.js, and modern web technologies
 - 🌱 Currently seeking internship opportunities
-- 📫 Contact: susara.perera@outlook.com
+- 📫 Contact: [susara.perera@outlook.com](mailto:susara.perera@outlook.com)
 
 ## 🔗 Connect
 
 - **GitHub**: [susara-perera](https://github.com/susara-perera)
 - **LinkedIn**: [susara-perera](https://linkedin.com/in/susara-perera)
-- **Email**: susara.perera@outlook.com
+- **Email**: [susara.perera@outlook.com](mailto:susara.perera@outlook.com)
 
 ---
 
