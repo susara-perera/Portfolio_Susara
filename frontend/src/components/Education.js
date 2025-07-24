@@ -1,51 +1,33 @@
 import React from 'react';
-import { FaGraduationCap, FaSchool, FaAward, FaCalendarAlt } from 'react-icons/fa';
+import { FaGraduationCap, FaAward, FaCalendarAlt } from 'react-icons/fa';
 
 const Education = () => {
   const educationData = [
     {
-      institution: "Sri Lanka Institute of Information Technology",
+      institution: "Sri Lanka Institute of Information Technology (SLIIT)",
       degree: "BSc (Hons) Degree in Information Technology",
-      specialization: "Software Engineering (Undergraduate)",
+      specialization: "Software Engineering",
       duration: "2022 - Present",
       gpa: "2.95",
-      status: "Current",
+      status: "Current - Third Year (Second Semester)",
       icon: <FaGraduationCap className="text-3xl text-blue-500" />,
-      description: "Specializing in Software Engineering with focus on modern development practices, algorithms, and system design."
+      description: "Specializing in Software Engineering with focus on modern development practices, algorithms, system design, and full-stack development. Currently in third year, second semester."
     },
     {
-      institution: "Aquinas College of Higher Education",
-      degree: "English Diploma (Intermediate Level)",
-      duration: "2022 - 2023",
+      institution: "Aquinas College Of Higher Education",
+      degree: "English Diploma (Up to Intermediate Level)",
+      duration: "2022-2023",
       status: "Completed",
       icon: <FaAward className="text-3xl text-green-500" />,
-      description: "Enhanced English communication skills for professional and academic purposes."
+      description: "Enhanced English communication skills for professional and academic purposes, achieving intermediate proficiency level."
     },
     {
       institution: "British Way English Academy",
-      degree: "Spoken English Certificate Level",
-      duration: "2019 - 2020",
+      degree: "Spoken English (Certificate Level)",
+      duration: "2019-2020",
       status: "Completed",
       icon: <FaAward className="text-3xl text-purple-500" />,
-      description: "Developed fluency in spoken English and communication skills."
-    },
-    {
-      institution: "Kirimathwa National School (G.C.E. A/L)",
-      degree: "Advanced Level Examination",
-      subjects: "Logic, Political Science, Economics, English",
-      duration: "2021 - 2022",
-      status: "Completed",
-      icon: <FaSchool className="text-3xl text-orange-500" />,
-      description: "Completed Advanced Level studies with focus on logical reasoning and social sciences."
-    },
-    {
-      institution: "Kirimathwa National School (G.C.E. O/L)",
-      degree: "Ordinary Level Examination",
-      subjects: "Mathematics (A), Science (B), Sinhala (B), English (C), Commerce (B), Health (A), Dance (A), History (A), Buddhism (A)",
-      duration: "2018",
-      status: "Completed",
-      icon: <FaSchool className="text-3xl text-red-500" />,
-      description: "Strong academic foundation with excellent performance in Mathematics and Sciences."
+      description: "Developed fluency in spoken English and professional communication skills through comprehensive certificate program."
     }
   ];
 

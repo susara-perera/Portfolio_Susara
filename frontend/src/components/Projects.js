@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { FaGithub, FaExternalLinkAlt, FaReact, FaJava, FaPython } from 'react-icons/fa';
-import { SiTailwindcss, SiMongodb, SiMysql, SiKotlin, SiAndroid } from 'react-icons/si';
+import { FaGithub, FaExternalLinkAlt, FaReact, FaJava } from 'react-icons/fa';
+import { SiTailwindcss, SiMongodb, SiMysql, SiPhp, SiFlutter, SiFirebase } from 'react-icons/si';
 
 const Projects = () => {
   const [activeFilter, setActiveFilter] = useState('all');
@@ -8,84 +8,70 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
+      title: "Employee Attendance System",
+      description: "A secure web-based attendance system using PHP and SQL to automate employee check-in/out, leave tracking, and reports. This replaced manual work, improved accuracy, and gave me hands-on experience in full-stack web development.",
+      image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      technologies: ["PHP", "SQL", "HTML", "CSS", "JavaScript"],
+      category: "web",
+      github: "https://github.com/susara-perera/employee-attendance",
+      status: "Completed",
+      icons: [<SiPhp />, <SiMysql />]
+    },
+    {
+      id: 2,
+      title: "Food Ordering System - Microservices Architecture",
+      description: "Developed a Food Ordering System using the MERN stack and Spring Boot with Microservices Architecture for better scalability. It includes a secure payment gateway and integrates ordering, payment, and user services for a smooth user experience.",
+      image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1481&q=80",
+      technologies: ["React", "Node.js", "MongoDB", "Spring Boot", "Microservices", "Payment Gateway"],
+      category: "web",
+      github: "https://github.com/susara-perera/food-ordering-microservices",
+      status: "Completed",
+      icons: [<FaReact />, <SiMongodb />]
+    },
+    {
+      id: 3,
+      title: "Ayurveda Hospital Management System",
+      description: "Developed an Ayurveda Hospital Management System using the Mern stack to manage patient records, appointments, billing, and treatment in one secure platform. This strengthened my full-stack JavaScript skills and improved hospital workflow by digitizing manual tasks.",
+      image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80",
+      technologies: ["React", "Node.js", "Express", "MongoDB", "JWT Authentication"],
+      category: "web",
+      github: "https://github.com/susara-perera/ayurveda-hospital-management",
+      status: "Completed",
+      icons: [<FaReact />, <SiMongodb />]
+    },
+    {
+      id: 4,
+      title: "E-Commerce System",
+      description: "Developed an E-Commerce System using Java, MongoDB, and JavaScript to manage products, user accounts, shopping carts, and secure orders. This project improved my skills in backend development, database handling, and building dynamic user interfaces.",
+      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      technologies: ["Java", "MongoDB", "JavaScript", "RESTful APIs"],
+      category: "web",
+      github: "https://github.com/susara-perera/ecommerce-java",
+      status: "Completed",
+      icons: [<FaJava />, <SiMongodb />]
+    },
+    {
+      id: 5,
+      title: "Mobile Application Development",
+      description: "Developed mobile apps using Flutter, Kotlin, and React Native with Firebase for authentication, real-time data, and cloud storage. This strengthened my skills in building responsive, cross-platform apps with modern frameworks.",
+      image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      technologies: ["Flutter", "Kotlin", "React Native", "Firebase"],
+      category: "mobile",
+      github: "https://github.com/susara-perera/mobile-apps",
+      status: "Completed",
+      icons: [<SiFlutter />, <SiFirebase />]
+    },
+    {
+      id: 6,
       title: "Portfolio Website",
-      description: "A modern, responsive portfolio website built with React and Tailwind CSS. Features smooth animations, dark mode toggle, and optimized performance.",
-      image: "/api/placeholder/400/250",
-      technologies: ["React", "Tailwind CSS", "JavaScript", "Framer Motion"],
+      description: "A modern, responsive portfolio website built with React and Tailwind CSS. Features smooth animations, optimized performance, and showcases my projects and skills effectively.",
+      image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80",
+      technologies: ["React", "Tailwind CSS", "JavaScript", "AOS Animation"],
       category: "web",
       github: "https://github.com/susara-perera/portfolio",
       live: "https://susara-perera.netlify.app",
       status: "Completed",
       icons: [<FaReact />, <SiTailwindcss />]
-    },
-    {
-      id: 2,
-      title: "Full-Stack E-Commerce Platform",
-      description: "Complete e-commerce solution with React frontend, Node.js backend, user authentication, product catalog, shopping cart, payment integration, and admin dashboard.",
-      image: "/api/placeholder/400/250",
-      technologies: ["React", "Node.js", "Express", "MongoDB", "Stripe API", "JWT"],
-      category: "web",
-      github: "https://github.com/susara-perera/ecommerce-fullstack",
-      live: "https://ecommerce-demo.netlify.app",
-      status: "In Progress",
-      icons: [<FaReact />, <SiMongodb />]
-    },
-    {
-      id: 3,
-      title: "Task Management Mobile App",
-      description: "Android application for task management with features like task creation, categorization, reminders, and progress tracking. Built with Kotlin.",
-      image: "/api/placeholder/400/250",
-      technologies: ["Kotlin", "Android SDK", "SQLite", "Material Design"],
-      category: "mobile",
-      github: "https://github.com/susara-perera/task-manager-android",
-      status: "Completed",
-      icons: [<SiKotlin />, <SiAndroid />]
-    },
-    {
-      id: 4,
-      title: "Student Information System",
-      description: "Desktop application for managing student records, grades, and academic information. Features include data visualization and report generation.",
-      image: "/api/placeholder/400/250",
-      technologies: ["Java", "JavaFX", "MySQL", "JFreeChart"],
-      category: "desktop",
-      github: "https://github.com/susara-perera/student-info-system",
-      status: "Completed",
-      icons: [<FaJava />, <SiMysql />]
-    },
-    {
-      id: 5,
-      title: "Weather Forecast App",
-      description: "Real-time weather application with location-based forecasts, interactive maps, and weather alerts. Responsive design for all devices.",
-      image: "/api/placeholder/400/250",
-      technologies: ["React", "OpenWeather API", "Chart.js", "Geolocation API"],
-      category: "web",
-      github: "https://github.com/susara-perera/weather-app",
-      live: "https://weather-forecast-sp.netlify.app",
-      status: "Completed",
-      icons: [<FaReact />]
-    },
-    {
-      id: 6,
-      title: "Personal Finance Tracker",
-      description: "Python-based application for tracking personal expenses, income, and financial goals with data visualization and budget analysis.",
-      image: "/api/placeholder/400/250",
-      technologies: ["Python", "Tkinter", "Matplotlib", "SQLite"],
-      category: "desktop",
-      github: "https://github.com/susara-perera/finance-tracker",
-      status: "Completed",
-      icons: [<FaPython />]
-    },
-    {
-      id: 7,
-      title: "Real-Time Chat Application",
-      description: "Full-stack real-time messaging app with Socket.io, user authentication, group chats, file sharing, and message encryption.",
-      image: "/api/placeholder/400/250",
-      technologies: ["React", "Node.js", "Socket.io", "MongoDB", "JWT", "Express"],
-      category: "web",
-      github: "https://github.com/susara-perera/chat-app",
-      live: "https://realtime-chat-sp.netlify.app",
-      status: "Completed",
-      icons: [<FaReact />, <SiMongodb />]
     }
   ];
 
@@ -101,18 +87,22 @@ const Projects = () => {
     : projects.filter(project => project.category === activeFilter);
 
   const ProjectCard = ({ project }) => (
-    <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
-      <div className="relative">
+    <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 group">
+      <div className="relative overflow-hidden">
         <img 
           src={project.image} 
           alt={project.title}
-          className="w-full h-48 object-cover"
+          className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-110"
+          onError={(e) => {
+            e.target.src = "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80";
+          }}
         />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
         <div className="absolute top-4 right-4">
-          <span className={`px-3 py-1 rounded-full text-xs font-semibold ${
+          <span className={`px-3 py-1 rounded-full text-xs font-semibold backdrop-blur-sm ${
             project.status === 'Completed' 
-              ? 'bg-green-100 text-green-800' 
-              : 'bg-blue-100 text-blue-800'
+              ? 'bg-green-100/90 text-green-800' 
+              : 'bg-blue-100/90 text-blue-800'
           }`}>
             {project.status}
           </span>
@@ -137,7 +127,7 @@ const Projects = () => {
           {project.technologies.map((tech, index) => (
             <span 
               key={index}
-              className="px-2 py-1 bg-gray-100 text-gray-700 text-xs rounded-md"
+              className="px-3 py-1 bg-gradient-to-r from-blue-50 to-purple-50 text-blue-700 text-xs rounded-full font-medium border border-blue-100 hover:from-blue-100 hover:to-purple-100 transition-colors duration-200"
             >
               {tech}
             </span>

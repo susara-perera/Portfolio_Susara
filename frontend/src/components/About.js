@@ -72,15 +72,19 @@ const About = () => {
               <div className="space-y-3">
                 <div className="flex justify-between">
                   <span className="text-gray-600">Location:</span>
-                  <span className="font-medium">Diyawala, Kimiwetiya</span>
+                  <span className="font-medium">Diyawala, Kirindiwela</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-gray-600">Role:</span>
-                  <span className="font-medium">Full Stack Developer</span>
+                  <span className="text-gray-600">Current Role:</span>
+                  <span className="font-medium">Software Engineering Intern</span>
+                </div>
+                <div className="flex justify-between">
+                  <span className="text-gray-600">Company:</span>
+                  <span className="font-medium">Sri Lanka Port Authority</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-600">Year:</span>
-                  <span className="font-medium">Second Year</span>
+                  <span className="font-medium">Third Year (2nd Semester)</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-600">GPA:</span>
@@ -94,24 +98,25 @@ const About = () => {
           <div className="space-y-6" data-aos="fade-left">
             <div className="prose prose-lg text-gray-600">
               <p className="text-lg leading-relaxed mb-6">
-                I am a passionate Full Stack Developer and second-year Software Engineering 
-                student at SLIIT. My journey in technology combines both frontend and backend 
-                development, creating comprehensive digital solutions that bridge user experience 
-                with robust server-side functionality.
+                I am a Third-year second-semester Software Engineering student at SLIIT with a strong passion for 
+                technology and problem-solving. Currently, I am gaining valuable industry experience through a 
+                Software Engineering Internship at Sri Lanka Port Authority, where I contribute to the design and 
+                development of official websites, focusing on responsive design, user-friendly navigation, and secure data handling.
               </p>
 
               <p className="text-lg leading-relaxed mb-6">
-                With expertise spanning from React and modern JavaScript frameworks to Node.js, 
-                Express, and database management, I bring a holistic approach to web development. 
-                My experience includes building responsive web applications, RESTful APIs, and 
-                mobile applications using cutting-edge technologies.
+                My technical expertise spans multiple programming languages including Java, JavaScript, Python, C++, 
+                PHP, and mobile development with Flutter and Kotlin. I have hands-on experience with modern frameworks 
+                like React, Node.js, Angular, Spring Boot, and databases including SQL, MongoDB, and Firebase. This 
+                diverse skill set allows me to tackle full-stack development challenges effectively.
               </p>
 
               <p className="text-lg leading-relaxed mb-8">
-                I am actively seeking internship opportunities where I can contribute to real-world 
-                projects, collaborate with experienced developers, and continue growing my skills 
-                in the ever-evolving tech landscape. My goal is to create innovative solutions 
-                that make a positive impact while building scalable and maintainable applications.
+                Through my internship and academic projects, I have developed and implemented comprehensive systems 
+                including Employee Management Systems, Food Ordering platforms using MERN stack and microservices 
+                architecture, Hospital Management Systems, E-Commerce platforms, and mobile applications. My goal 
+                is to enhance my skills, learn new technologies, and grow as a developer through hands-on experience 
+                in professional environments.
               </p>
             </div>
 

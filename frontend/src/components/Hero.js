@@ -8,8 +8,9 @@ const Hero = () => {
   const [currentRole, setCurrentRole] = useState(0);
   
   const roles = useMemo(() => [
+    'Software Engineering Intern',
     'Full Stack Developer',
-    'Software Engineering Student',
+    'Third-year Software Engineering Student',
     'Frontend & Backend Developer',
     'Problem Solver',
     'Tech Innovator'
@@ -88,10 +89,10 @@ const Hero = () => {
             </div>
 
             <p className="text-xl text-white/80 max-w-3xl mx-auto leading-relaxed" data-aos="fade-up" data-aos-delay="400">
-              A passionate Full Stack Developer and second-year Software Engineering student at SLIIT. 
-              Specialized in creating end-to-end web solutions with modern technologies including React, 
-              Node.js, and mobile development. Currently seeking internship opportunities to enhance my 
-              skills and contribute to innovative projects.
+              A passionate Third-year second-semester Software Engineering student at SLIIT with strong expertise in 
+              technology and problem-solving. Currently gaining hands-on experience through a Software Engineering 
+              Internship at Sri Lanka Port Authority, where I contribute to real-world projects and develop practical 
+              skills in software development and collaborative environments.
             </p>
 
             {/* CTA Buttons */}

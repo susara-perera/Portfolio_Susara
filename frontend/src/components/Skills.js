@@ -24,8 +24,15 @@ import {
   SiKotlin,
   SiCplusplus,
   SiAndroid,
-  SiGithub,
-  SiVisualstudiocode
+  SiVisualstudiocode,
+  SiPhp,
+  SiFlutter,
+  SiAngular,
+  SiSpringboot,
+  SiFirebase,
+  SiPostman,
+  SiFigma,
+  SiCanva
 } from 'react-icons/si';
 
 const Skills = () => {
@@ -35,11 +42,11 @@ const Skills = () => {
       icon: <FaTools className="text-2xl" />,
       skills: [
         { name: "Java", icon: <FaJava className="text-red-500" />, level: 85 },
-        { name: "Python", icon: <FaPython className="text-blue-500" />, level: 80 },
         { name: "JavaScript", icon: <FaJs className="text-yellow-500" />, level: 90 },
-        { name: "TypeScript", icon: <SiTypescript className="text-blue-600" />, level: 75 },
-        { name: "C++", icon: <SiCplusplus className="text-blue-700" />, level: 70 },
-        { name: "Kotlin", icon: <SiKotlin className="text-purple-500" />, level: 65 }
+        { name: "Python", icon: <FaPython className="text-blue-500" />, level: 80 },
+        { name: "C++", icon: <SiCplusplus className="text-blue-700" />, level: 75 },
+        { name: "PHP", icon: <SiPhp className="text-purple-600" />, level: 70 },
+        { name: "TypeScript", icon: <SiTypescript className="text-blue-600" />, level: 75 }
       ]
     },
     {
@@ -47,28 +54,42 @@ const Skills = () => {
       icon: <FaReact className="text-2xl" />,
       skills: [
         { name: "React", icon: <FaReact className="text-blue-400" />, level: 90 },
+        { name: "Node.js", icon: <FaNodeJs className="text-green-500" />, level: 80 },
+        { name: "Angular", icon: <SiAngular className="text-red-600" />, level: 75 },
+        { name: "Spring Boot", icon: <SiSpringboot className="text-green-600" />, level: 70 },
         { name: "HTML5", icon: <FaHtml5 className="text-orange-500" />, level: 95 },
         { name: "CSS3", icon: <FaCss3Alt className="text-blue-500" />, level: 90 },
-        { name: "Tailwind CSS", icon: <SiTailwindcss className="text-teal-500" />, level: 85 },
-        { name: "Node.js", icon: <FaNodeJs className="text-green-500" />, level: 75 }
+        { name: "Tailwind CSS", icon: <SiTailwindcss className="text-teal-500" />, level: 85 }
       ]
     },
     {
       title: "Mobile Development",
       icon: <FaMobile className="text-2xl" />,
       skills: [
-        { name: "Android (Java/Kotlin)", icon: <SiAndroid className="text-green-500" />, level: 80 },
-        { name: "React Native", icon: <FaReact className="text-blue-400" />, level: 70 }
+        { name: "Flutter", icon: <SiFlutter className="text-blue-400" />, level: 80 },
+        { name: "Kotlin", icon: <SiKotlin className="text-purple-500" />, level: 75 },
+        { name: "React Native", icon: <FaReact className="text-blue-400" />, level: 70 },
+        { name: "Android", icon: <SiAndroid className="text-green-500" />, level: 80 }
       ]
     },
     {
-      title: "Database & Tools",
+      title: "Databases & Tools",
       icon: <FaDatabase className="text-2xl" />,
       skills: [
-        { name: "MySQL", icon: <SiMysql className="text-blue-600" />, level: 80 },
+        { name: "SQL", icon: <SiMysql className="text-blue-600" />, level: 80 },
         { name: "MongoDB", icon: <SiMongodb className="text-green-500" />, level: 75 },
+        { name: "Firebase", icon: <SiFirebase className="text-orange-500" />, level: 75 },
         { name: "Git", icon: <FaGitAlt className="text-red-500" />, level: 85 },
-        { name: "GitHub", icon: <SiGithub className="text-gray-800" />, level: 85 },
+        { name: "GitHub", icon: <FaGitAlt className="text-gray-800" />, level: 85 },
+        { name: "Postman", icon: <SiPostman className="text-orange-600" />, level: 85 }
+      ]
+    },
+    {
+      title: "Design Tools",
+      icon: <FaTools className="text-2xl" />,
+      skills: [
+        { name: "Figma", icon: <SiFigma className="text-purple-500" />, level: 75 },
+        { name: "Canva", icon: <SiCanva className="text-blue-400" />, level: 80 },
         { name: "VS Code", icon: <SiVisualstudiocode className="text-blue-500" />, level: 90 }
       ]
     }

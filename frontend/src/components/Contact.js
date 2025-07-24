@@ -43,13 +43,13 @@ const Contact = () => {
     {
       icon: <FaPhone className="text-2xl" />,
       title: "Phone",
-      value: "0719069003",
+      value: "+94 719069003",
       link: "tel:+94719069003"
     },
     {
       icon: <FaMapMarkerAlt className="text-2xl" />,
       title: "Location",
-      value: "Diyawala, Kimiwetiya",
+      value: "No. 189/C Diyawala, Kimawetiya",
       link: null
     }
   ];

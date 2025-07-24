@@ -110,7 +110,7 @@ const Footer = () => {
               </div>
               <div>
                 <p className="text-gray-400 text-sm">Location</p>
-                <p className="text-white">Diyawala, Kimiwetiya</p>
+                <p className="text-white">Diyawala, Kirindiwela</p>
               </div>
             </div>
           </div>
