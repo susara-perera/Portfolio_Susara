@@ -49,7 +49,7 @@ const Contact = () => {
     {
       icon: <FaMapMarkerAlt className="text-2xl" />,
       title: "Location",
-      value: "No. 189/C Diyawala, Kimawetiya",
+      value: "No. 189/C Diyawala, Kirindiwela",
       link: null
     }
   ];

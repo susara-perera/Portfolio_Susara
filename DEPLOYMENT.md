@@ -1,6 +1,7 @@
 # Netlify Deployment Guide
 
 ## Prerequisites
+
 - GitHub account
 - Netlify account (free at netlify.com)
 - Your portfolio project pushed to GitHub
@@ -8,6 +9,7 @@
 ## Step 1: Push Your Code to GitHub
 
 1. **Initialize Git Repository** (if not already done):
+
    ```bash
    cd "c:\Users\User\Documents\Project\af2\Portfolio_Susara"
    git init
@@ -23,6 +25,7 @@
    - Click "Create repository"
 
 3. **Push to GitHub**:
+
    ```bash
    git remote add origin https://github.com/YOUR_USERNAME/Portfolio_Susara.git
    git branch -M main
@@ -58,6 +61,7 @@
 If you prefer not to connect GitHub:
 
 1. **Build your project locally**:
+
    ```bash
    cd "c:\Users\User\Documents\Project\af2\Portfolio_Susara\frontend"
    npm run build
@@ -78,12 +82,14 @@ If you prefer not to connect GitHub:
 ## Step 4: Environment Variables (If needed)
 
 If your project uses environment variables:
+
 1. Go to Site settings → Environment variables
 2. Add your variables (like API keys)
 
 ## Automatic Deployments
 
 With GitHub integration:
+
 - Every push to your main branch automatically deploys
 - Pull request previews are generated
 - Build logs show any errors
@@ -91,6 +97,7 @@ With GitHub integration:
 ## Build Configuration
 
 The `netlify.toml` file I created configures:
+
 - Build command and publish directory
 - Node.js version
 - Redirects for single-page app
@@ -99,15 +106,18 @@ The `netlify.toml` file I created configures:
 ## Common Issues & Solutions
 
 ### Build Fails
+
 - Check build logs in Netlify dashboard
 - Ensure all dependencies are in package.json
 - Verify build command works locally
 
 ### Images Not Loading
+
 - Use relative paths for local images
 - Ensure images are in the public folder or imported properly
 
 ### 404 Errors
+
 - The netlify.toml redirects should handle this
 - Ensure you're using React Router correctly
 
